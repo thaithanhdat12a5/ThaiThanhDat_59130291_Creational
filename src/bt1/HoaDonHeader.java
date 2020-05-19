@@ -22,7 +22,7 @@ public class HoaDonHeader {
     public String toString() {
         return "\nMã Hóa Đơn: " + maHoaDon+
                  "\nNgày Bán: " + ngayBan +
-                 "\nTên Khách Hàng" + tenKhachHang;
+                 "\nTên Khách Hàng: " + tenKhachHang;
     }
     
     public static class Builder
